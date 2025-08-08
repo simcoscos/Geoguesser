@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geoguesser</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Geoguesser">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="icon" sizes="192x192" href="icons/icon-192.png">
+<link rel="icon" sizes="512x512" href="icons/icon-512.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+<h1>Geoguesser PWA</h1>
+<div id="game">
+<img id="photo" alt="Photo to guess">
+<div id="map"></div>
+<button id="guessBtn">Guess</button>
+<div id="score"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

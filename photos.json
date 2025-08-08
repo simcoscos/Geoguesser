@@ -1,0 +1,23 @@
+[
+  {
+    "file": "photo1.jpg",
+    "title": "Sample location 1",
+    "lat": 40.6892,
+    "lng": -74.0445,
+    "credit": "Placeholder"
+  },
+  {
+    "file": "photo2.jpg",
+    "title": "Sample location 2",
+    "lat": 48.8584,
+    "lng": 2.2945,
+    "credit": "Placeholder"
+  },
+  {
+    "file": "photo3.jpg",
+    "title": "Sample location 3",
+    "lat": 51.5007,
+    "lng": -0.1246,
+    "credit": "Placeholder"
+  }
+]
