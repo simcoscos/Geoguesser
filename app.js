@@ -23,7 +23,7 @@ function showPhoto() {
     return;
   }
   actual = photos[round];
-  document.getElementById('photo').src = 'photos/' + actual.file;
+  document.getElementById('photo').src = actual.file;
 }
 
 function onMapClick(e) {
